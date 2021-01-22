@@ -9,4 +9,7 @@
     #banniere img {
         align-self: center;
     }
+    #skill .box:nth-child(1n+2) {
+        margin-top: 0;
+    }
 }
