@@ -11,6 +11,10 @@ section {
     border-bottom: var(--color-1) solid 2px;
 }
 
+section:last-child {
+    border: none;
+}
+
 #banniere {
     margin-top: 100px;
     align-self: center;
@@ -62,6 +66,7 @@ section {
 }
 
 .box h3 {
+    color: white;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -101,4 +106,25 @@ section {
     justify-self: center;
     width: 40px;
     fill: var(--color-1);
+}
+
+#skill {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#skill>* {
+    flex: 1;
+}
+
+#skill ul {
+    list-style: none;
+    padding-inline-start: 0;
+    letter-spacing: 1px;
+}
+
+#skill li {
+    text-align: center;
 }

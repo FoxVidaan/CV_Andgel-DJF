@@ -1,0 +1,12 @@
+@media(max-width: 720px) {
+    section {
+        margin: 0 15px;
+        width: calc(100% - 30px);
+    }
+    #banniere {
+        flex-direction: column;
+    }
+    #banniere img {
+        align-self: center;
+    }
+}
