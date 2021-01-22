@@ -1,0 +1,104 @@
+#content {
+    width: 100%;
+}
+
+section {
+    margin: 0 50px;
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-bottom: var(--color-1) solid 2px;
+}
+
+#banniere {
+    margin-top: 100px;
+    align-self: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+#banniere img {
+    border-radius: 50%;
+    box-shadow: var(--color-1) 0 0 20px 3px;
+    width: 250px;
+}
+
+#banniere #texte {
+    max-width: 600px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+#banniere h1 {
+    margin-top: 5px;
+    color: white;
+    border-bottom: var(--color-1) solid 1px;
+    padding-bottom: 10px;
+}
+
+#banniere span {
+    color: rgba(248, 248, 248, 0.432);
+    font-size: 0.85em;
+    text-align: center;
+}
+
+#banniere p {
+    text-align: justify;
+}
+
+.box {
+    box-shadow: inset 0px 2px 13px 2px rgba(0, 0, 0, 0.20);
+    margin-top: 50px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.box.inverted {
+    box-shadow: 0px 2px 13px 2px rgba(0, 0, 0, 0.20);
+}
+
+.box h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#presentation strong {
+    color: var(--color-1);
+}
+
+.contact-box {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-item {
+    display: grid;
+    padding: 25px;
+    gap: 20px;
+    box-shadow: inset 0px 2px 13px 2px rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.contact-item a {
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    font-weight: bold;
+}
+
+.contact-item svg {
+    justify-self: center;
+    width: 40px;
+    fill: var(--color-1);
+}

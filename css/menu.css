@@ -1,0 +1,54 @@
+#menu {
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: var(--color-1) 0px 0 5px; */
+}
+
+
+/* #menu>svg {
+    cursor: pointer;
+} */
+
+.nav-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list:hover .nav-item {
+    opacity: 0.3;
+}
+
+.nav-item {
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 0;
+    transition: opacity 0.4s;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item:nth-child(2n+1) {
+    background-color: var(--color-1);
+}
+
+.nav-list:hover .nav-item:hover {
+    opacity: 1;
+}
+
+#menu svg,
+#menu g {
+    width: 50px;
+    fill: var(--color-light);
+}
+
+.nav-item p {
+    margin: 0 20px;
+    text-align: center;
+    align-self: center;
+}
